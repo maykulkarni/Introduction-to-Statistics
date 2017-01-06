@@ -49,4 +49,7 @@ def std_dev(data):
     return math.sqrt(variance(data))
 
 
+def print1():
+    print 1
+
 print likelihood({'A': 0.2, 'B': 0.2, 'C': 0.2, 'D': 0.2, 'E': 0.2}, 'ABCEDDECAB')
